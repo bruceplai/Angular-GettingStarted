@@ -4,12 +4,16 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { ProductListComponent } from './products/product-list.component';
+import { StarComponent } from './shared/star.component';
 import { ConvertToSpaces } from './shared/convertToSpaces.pipe';
 
 @NgModule({
   //needed to find pm-root directive
   declarations: [
-    AppComponent, ProductListComponent, ConvertToSpaces
+    AppComponent,
+    ProductListComponent,
+    ConvertToSpaces,
+    StarComponent
   ],
   imports: [
     BrowserModule,
